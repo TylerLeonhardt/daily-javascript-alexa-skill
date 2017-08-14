@@ -1,18 +1,14 @@
-# "Is the mountain out?" Example Alexa Skill
+# Daily Javascript Alexa Skill
 
-An example Alexa Skill that pulls the latest tweet from a Twitter user and responds with that.
+A fork of my [example Alexa Skill](https://github.com/tylerl0706/Is-The-Mountain-Out-Example-Alexa-Skill) that pulls the latest tweet from a Twitter user and responds with that.
 
-In this case, I used @IsMtRainierOut to tell us if the mountain is out! - If you're not from Seattle and don't know what I mean by Mountain, this is what I'm talking about!:
+In this case, I used [@JavaScriptDaily](https://twitter.com/JavaScriptDaily) to give us the latest and greatest of the JavaScript world.
 
-![The Mountain is Out!](http://media-cache-ec0.pinimg.com/736x/32/0d/cd/320dcdbdcb002671cd13b0641e3cfbe5.jpg)
-
-Mt Rainier in all its glory :)
-
-You can get this Skill [here](https://www.amazon.com/Tyler-Leonhardt-Mt-Rainier/dp/B072KGC5B1/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1497715426&sr=1-1&keywords=Mt+Rainier)!
+![](https://pbs.twimg.com/profile_images/877477206418653184/W63ZlNa1_400x400.jpg)
 
 ## Prereqs
 
-You'll need to [make a Twitter app](https://apps.twitter.com) so you can use their API. If you don't know how to get the 4 keys needed to interact with the API, I recommend follow my workshop [here](http://techknights.org/workshops/nodejs-twitterbot/)
+You'll need to [make a Twitter app](https://apps.twitter.com) so you can use their API. If you don't know how to get the 4 keys needed to interact with the API, I recommend following my workshop [here](http://techknights.org/workshops/nodejs-twitterbot/)
 
 You'll also need an Amazon & AWS account since you're creating an Alexa Skill and this uses an AWS Lambda Function (It's the easiest way to make an Alexa skill).
 
@@ -42,8 +38,12 @@ Save that and deploy it.
 
 If you configured your Alexa Skill correctly, you should be able to ask your Echo: 
 
->You: Alexa, ask [your skill name] if the mountain is out.
+>You: Alexa, ask [your skill name] what's the latest news.
 
->Alexa: Yes!
+>Alexa: I hear React is good.
+
+Check the card in your Alexa app for the link to the article.
+
+NOTE: The Alexa app doesn't support opening links in cards... Tweet at them asking for it! We need this feature!
 
 Open an issue if you have problems and I'll help :)
